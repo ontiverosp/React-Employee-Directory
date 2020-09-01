@@ -2,6 +2,7 @@ import React from "react";
 
 class Table extends React.Component {
   render(){
+    return(
     <div>
       <table>
   <tr>
@@ -22,7 +23,7 @@ class Table extends React.Component {
   </tr>
 </table>
     </div>
-  }; 
+    )}; 
 }
 
 export default Table;
