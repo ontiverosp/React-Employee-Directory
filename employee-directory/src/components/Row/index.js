@@ -5,6 +5,11 @@ class Row extends React.Component {
     state = {
         employee: this.props.employee
     };
+    static getDerivedStateFromProps(nextProps, prevState) {
+        return {
+         employee: nextProps.employee,
+        };
+       }
 
     render() {
         const employee = this.state.employee
